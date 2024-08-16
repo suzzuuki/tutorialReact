@@ -6,8 +6,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <div >
+          <textarea
+          key='test'
+          id='test'
+          value='ここにかけるけど、いんぷっとテキストの表示んしかたがわからんに'
+          />
+        </div>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          React少しさわってみてるんやで ↑のくるくるかわいいんやで
         </p>
         <a
           className="App-link"
@@ -15,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          わいやで、フロンント練習始めるんやで
         </a>
       </header>
     </div>
